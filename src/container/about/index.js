@@ -7,7 +7,8 @@ function About (){
     return(
         <div>
             <h1>About</h1>
-            <h2>{A.name}</h2>
+            <h2>{A.App.name}</h2>
+            
             <button onClick={()=>dispatch({type:"update", name:"shahid"})}>click</button>
             <Link to="/">Home</Link>
         </div>
